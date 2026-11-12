@@ -1,4 +1,16 @@
 {
+    "/electronics101/led/arrays/ws2812bcontrol/": {
+        "id": 868,
+        "title": "LED Array Control from macOS",
+        "summary": "Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.",
+        "tags": [
+            "macOS",
+            "CH340",
+            "WS2811",
+            "WS2812B",
+            "LED Array"
+        ]
+    },
     "/books/electronics-for-today-and-tomorrow/": {
         "id": 867,
         "title": "Electronics for Today and Tomorrow",
@@ -1299,7 +1311,8 @@
             "Arduino",
             "AVR",
             "macOS",
-            "USB"
+            "USB",
+            "CH340"
         ]
     },
     "/playground/applesilicon/": {

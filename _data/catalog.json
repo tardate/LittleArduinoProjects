@@ -1,5 +1,15 @@
 [
     {
+        "name": "LED Array Control from macOS",
+        "description": "Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.",
+        "categories": "macOS, CH340, WS2811, WS2812B, LED Array",
+        "relative_path": "electronics101/led/arrays/ws2812bcontrol",
+        "updated_at": "2026-11-12T04:31:00Z",
+        "created_at": "2026-11-12T04:31:00Z",
+        "id": "#868",
+        "original_relative_path": "Electronics101/LED/Arrays/WS2812BControl"
+    },
+    {
         "name": "Electronics for Today and Tomorrow",
         "description": "Book Notes: Electronics for Today and Tomorrow, by Tom Duncan, John Murray. First published December 31, 1985",
         "categories": "Books",
@@ -1313,7 +1323,7 @@
         "id": "#736",
         "name": "CH340 on Apple Silicon",
         "description": "Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon",
-        "categories": "Arduino, AVR, macOS, USB",
+        "categories": "Arduino, AVR, macOS, USB, CH340",
         "relative_path": "playground/applesilicon/ch340",
         "updated_at": "2023-12-29T10:43:33Z",
         "created_at": "2023-12-29T10:43:33Z",

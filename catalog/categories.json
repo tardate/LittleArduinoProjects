@@ -293,6 +293,8 @@
     "Voltage Reference",
     "WebServer",
     "Wireless",
+    "WS2811",
+    "WS2812B",
     "XL4015",
     "XR2206",
     "Zener"
