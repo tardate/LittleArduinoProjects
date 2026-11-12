@@ -8544,20 +8544,20 @@
         "name": "StripTease",
         "description": "demo a range of effects on the LED strip",
         "categories": "LED Array, Arduino",
-        "relative_path": "ledarraydemos/striptease",
+        "relative_path": "electronics101/led/arrays/ledarraydemos/striptease",
         "updated_at": "2016-06-19T14:13:24Z",
         "created_at": "2016-06-19T14:13:24Z",
-        "original_relative_path": "LEDArrayDemos/StripTease"
+        "original_relative_path": "Electronics101/LED/Arrays/LEDArrayDemos/StripTease"
     },
     {
         "id": "#014",
         "name": "LED Array Async Effects",
         "description": "demo effects on the LED strip driven using timer interrupt",
         "categories": "LED Array, Timing, Arduino",
-        "relative_path": "ledarraydemos/asyncledstripeffects",
+        "relative_path": "electronics101/led/arrays/ledarraydemos/asyncledstripeffects",
         "updated_at": "2021-03-09T16:33:19Z",
         "created_at": "2021-03-09T16:33:19Z",
-        "original_relative_path": "LEDArrayDemos/AsyncLedStripEffects"
+        "original_relative_path": "Electronics101/LED/Arrays/LEDArrayDemos/AsyncLedStripEffects"
     },
     {
         "id": "#013",
@@ -8614,20 +8614,20 @@
         "name": "LED Array RGB Calibration",
         "description": "quick test to make sure LEDs are correctly addressable and their color can be set correctly",
         "categories": "LED Array, Arduino",
-        "relative_path": "ledarraydemos/rgbcalibrate",
+        "relative_path": "electronics101/led/arrays/ledarraydemos/rgbcalibrate",
         "updated_at": "2021-03-09T16:33:19Z",
         "created_at": "2021-03-09T16:33:19Z",
-        "original_relative_path": "LEDArrayDemos/RGBCalibrate"
+        "original_relative_path": "Electronics101/LED/Arrays/LEDArrayDemos/RGBCalibrate"
     },
     {
         "id": "#007",
         "name": "Programmable LED Arrays",
         "description": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...",
         "categories": "LED Array, Arduino",
-        "relative_path": "ledarraydemos",
+        "relative_path": "electronics101/led/arrays/ledarraydemos",
         "updated_at": "2021-03-09T16:33:19Z",
         "created_at": "2021-03-09T16:33:19Z",
-        "original_relative_path": "LEDArrayDemos"
+        "original_relative_path": "Electronics101/LED/Arrays/LEDArrayDemos"
     },
     {
         "id": "#006",
