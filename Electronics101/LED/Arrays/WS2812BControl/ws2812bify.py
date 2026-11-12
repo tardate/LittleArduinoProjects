@@ -88,7 +88,13 @@ def send_buffers(line_buffers, port, baudrate):
   ser.close()
 
 def main():
-  parser = argparse.ArgumentParser(description='WS2812B Control')
+  parser = argparse.ArgumentParser(
+    description='WS2812B Control. ' \
+      'Reads NUA-format color data from stdin and sends it to a serial device. ' \
+      'NUA hex format: [DD]RRGGBB[ RRGGBB[ RRGGBB] ... ] ' \
+      'where DD is the duration in 10ms units, and RRGGBB is the color, ' \
+      'though some devices read the color as GGRRBB.'
+  )
   parser.add_argument('-p', '--port', required=True, help='Serial device name')
   parser.add_argument('-b', '--baudrate', type=int, default=2500000, help='Baud rate for serial communication')
   parser.add_argument('-v', '--verbose', action='store_true', default=False, help='Enable verbose output')

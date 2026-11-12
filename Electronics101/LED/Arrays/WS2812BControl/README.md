@@ -1,12 +1,12 @@
-# #xxx WS2812B Control from macOS
+# #xxx LED Array Control from macOS
 
-Controlling a string of WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.
+Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.
 
 ![Build](./assets/WS2812BControl_build.jpg?raw=true)
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
+[![clip](https://img.youtube.com/vi/Kj2igdYWEjA/0.jpg)](https://www.youtube.com/watch?v=Kj2igdYWEjA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 
@@ -27,7 +27,7 @@ This takes care of opening the serial port with the required baud rate.
 $ ./ws2812bify.py -h
 usage: ws2812bify.py [-h] -p PORT [-b BAUDRATE] [-v]
 
-WS2812B Control
+WS2812B Control. Reads NUA-format color data from stdin and sends it to a serial device. NUA hex format: [DD]RRGGBB[ RRGGBB[ RRGGBB] ... ] where DD is the duration in 10ms units, and RRGGBB is the color, though some devices read the color as GGRRBB.
 
 options:
   -h, --help            show this help message and exit
@@ -44,6 +44,11 @@ The UART transmit line is active-low, so we need an inverter to make the data st
 Steve Schnepp experimented with various RTL/DTL schemes to get sufficiently fast switching transients,
 but I've gone with a simple MOSFET switch.
 
+A 4.7kΩ pull-up on the data line seems to provide a sufficiently hard drive. Any higher and it can mess with the timing.
+
+Importantly, I use a dedicated power supply for the LED strip instead of trying to draw the power through the UART.
+NB: if only trying to drive 1 or 2 LEDs, powering via the UART is feasible.
+
 Designed with Fritzing: see [WS2812BControl.fzz](./WS2812BControl.fzz).
 
 ![bb](./assets/WS2812BControl_bb.jpg?raw=true)
@@ -54,7 +59,11 @@ I made up a strip of 6x WS2812B COB LEDs for the demo.
 These are individual LED units like the Adafruit NeoPixel.
 I purchased a set of 20 for US$3.12 (Nov-2017): ["WS2812B Matrix 4-Pin WS2812 LED Chip & Heatsink 5V 5050 RGB WS2811 IC Built-in 10~1000pcs(100pcs/board)" (aliexpress seller listing)](https://www.aliexpress.com/item/32463004816.html).
 
+![ws2812b-modules](assets/ws2812b-modules.jpg)
+
 WS2812B strips typically expect Green-Red-Blue order, and that is in fact how these LEDs decode the data stream.
+
+Testing on a breadboard:
 
 ![bb_build](./assets/WS2812BControl_bb_build.jpg?raw=true)
 
@@ -108,6 +117,30 @@ Sending data to /dev/cu.usbserial-2420 at 2500000 baud...
 ```
 
 ![scope-00000000](assets/scope-000000.gif)
+
+### Using a WS2811 Strip
+
+Both the WS2811 and WS2812B operate at a standard data rate of 800 kbps (800 kHz), though older WS2811 chips also support a slower 400 kbps (400 kHz) mode.
+
+I have an old string WS2811 LEDs. They only seem to work at the slower data rate.
+They also interpret the data stream as Red-Green-Blue.
+Sending R-G-B-R-G-B to the first 6 LEDs:
+
+```sh
+$ echo "00FF0000 00FF00 0000FF FF0000 00FF00 0000FF" | ./ws2812bify.py -p /
+dev/cu.usbserial-2420 -b 1250000
+Sending data to /dev/cu.usbserial-2420 at 1250000 baud...
+```
+
+![ws2811-demo](assets/ws2811-demo.jpg)
+
+The demo sequence runs nicely if we cut the baud rate in half:
+
+```sh
+$ for (( ; ; )) ; do ./ws2812bify.py -p /dev/cu.usbserial-2420 -b 1250000 < demos/demo.nua ; done
+$ ./ws2812bify.py -p /dev/cu.usbserial-2420 -b 1250000 < demos/demo.nua
+Sending data to /dev/cu.usbserial-2420 at 1250000 baud...
+```
 
 ## Credits and References
 

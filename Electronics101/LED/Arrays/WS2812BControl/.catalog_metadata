@@ -1,6 +1,6 @@
 {
-    "name": "WS2812B Control from macOS",
-    "description": "",
-    "categories": "macOS, CH340, WS2812B, LED Array",
+    "name": "LED Array Control from macOS",
+    "description": "Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.",
+    "categories": "macOS, CH340, WS2811, WS2812B, LED Array",
     "relative_path": "Electronics101/LED/Arrays/WS2812BControl"
 }
