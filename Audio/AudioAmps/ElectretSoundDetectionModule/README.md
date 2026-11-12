@@ -44,6 +44,8 @@ Specifications:
 
 ### Circuit Design
 
+Designed with Fritzing: see [ElectretSoundDetectionModule.fzz](./ElectretSoundDetectionModule.fzz).
+
 Here's my redrawing of the circuit. It basically comprises:
 
 * electret input ac-coupled to S9014 common emitter amplifier

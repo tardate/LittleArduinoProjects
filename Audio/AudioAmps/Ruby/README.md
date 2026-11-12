@@ -2,16 +2,22 @@
 
 A version of the runoffgroove Ruby LM386 guitar amp.
 
+![The Build](./assets/Ruby_build.jpg?raw=true)
+
 ## Notes
 
-The Ruby amp is similar to the [LittleGem](./LittleGem), however it introduces a JFET buffer on the input
-and discrete volume and gain controls.
+The Ruby amp is similar to the * [LEAP#095 Little Gem](../LittleGem/), however it introduces a JFET buffer on the input and discrete volume and gain controls for the LM386.
+
+![lm386-ref](../../../Electronics101/LM386/assets/lm386-ref.jpg)
 
 The build here is based on the [runoffgroove schematic](http://www.runoffgroove.com/ruby.html), but with a few variations:
+
 * adds a coupling capacitor on the input
 * J201 n-channel JFET instead of the original MPF102
 
-## Construction
+## Circuit Design
+
+Designed with Fritzing: see [Ruby.fzz](./Ruby.fzz).
 
 ![Breadboard](./assets/Ruby_bb.jpg?raw=true)
 
@@ -19,27 +25,26 @@ NB: in the schematic below, the FET symbol is not quite correct (shows n-channel
 
 ![The Schematic](./assets/Ruby_schematic.jpg?raw=true)
 
-## Breadboard Build
+I first tested the amp on a breadboard. It works, but noise and interference can be a problem.
 
-Running the amp on a breadboard is possible, but noise and interferance can be a real problem.
-So performace on a breadboard is not a very good indicator of actual performance if you build the circuit on a PCB.
+![Ruby_bb_build](./assets/Ruby_bb_build.jpg?raw=true)
 
-![The Build](./assets/Ruby_build.jpg?raw=true)
+## Protoboard Build
 
-## Prototype Build
+I transferred the design to some protoboard. Works really well!
 
-Running on a protoboard. Works really well! I need to find some pots to replace the trimmers then I can mount it properly.
+I've left the volume control with a trimpot, as in practice it is not really required if the guitar has a volume control already.
 
 Here's the layout I used:
 
-![The Schematic](./assets/Ruby_pcb_build.jpg?raw=true)
+![Ruby_protoboard_layout](./assets/Ruby_protoboard_layout.jpg?raw=true)
 
-![The Schematic](./assets/Ruby_pcb_front.jpg?raw=true)
-
-![The Schematic](./assets/Ruby_pcb_rear.jpg?raw=true)
+![Ruby_protoboard_build](./assets/Ruby_protoboard_build.jpg?raw=true)
 
 ## Credits and References
 
+* [LEAP#095 Little Gem](../LittleGem/)
 * [Ruby](http://www.runoffgroove.com/ruby.html) 386-based 9v battery amp
+* [LM386 Product Info - TI](https://www.ti.com/product/LM386)
 * [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)
 * [J201 datasheet](https://www.futurlec.com/Transistors/J201.shtml)

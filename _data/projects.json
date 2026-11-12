@@ -30,7 +30,7 @@
     "/equipment/workbenchlighting/": {
         "id": 865,
         "title": "Workbench Lighting II",
-        "summary": "Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.",
+        "summary": "Revamping the lighting for my standing workbench, with some COB LED lights, custom frame and backdrop.",
         "tags": [
             "LED",
             "Tools"
@@ -2986,7 +2986,9 @@
         "title": "Jet Engine Startup Effect",
         "summary": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO",
         "tags": [
-            "Audio"
+            "Audio",
+            "LM386",
+            "CD4046"
         ]
     },
     "/arm/1bitsy/baremetalblinky/": {
@@ -3356,7 +3358,8 @@
         "summary": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning",
         "tags": [
             "Radio",
-            "FM"
+            "FM",
+            "J201"
         ]
     },
     "/electronics101/subtractionloopcounterkit/": {
@@ -3625,7 +3628,9 @@
         "title": "Crystal-locked 1kHz Oscillator",
         "summary": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz",
         "tags": [
-            "Oscillators"
+            "Oscillators",
+            "J201",
+            "CD4060"
         ]
     },
     "/playground/usingtemplates/": {
@@ -3738,7 +3743,8 @@
         "summary": "Taming a very simple direct conversion FM receiver",
         "tags": [
             "Radio",
-            "FM"
+            "FM",
+            "LM386"
         ]
     },
     "/equipment/ang860b/": {
@@ -3804,7 +3810,8 @@
         "tags": [
             "Breadboard Bling",
             "Audio",
-            "OpAmp"
+            "OpAmp",
+            "LM386"
         ]
     },
     "/electronics101/breadboardbling/duplextuningcapacitor/": {
@@ -3874,7 +3881,7 @@
             "Kit"
         ]
     },
-    "/electronics101/guitareffects/goblin/": {
+    "/audio/guitareffects/goblin/": {
         "id": 461,
         "title": "Goblin",
         "summary": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications",
@@ -4296,7 +4303,9 @@
             "Boldport",
             "PCB Design",
             "Audio",
-            "Kit"
+            "Kit",
+            "LM386",
+            "TL072"
         ]
     },
     "/electronics101/oscillators/commonemitterhartley/": {
@@ -4475,7 +4484,8 @@
         "summary": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m",
         "tags": [
             "Radio",
-            "Kit"
+            "Kit",
+            "LM386"
         ]
     },
     "/equipment/usbprotector/": {
@@ -5066,7 +5076,7 @@
             "Kit"
         ]
     },
-    "/electronics101/guitareffects/delaykit/": {
+    "/audio/guitareffects/delaykit/": {
         "id": 339,
         "title": "DelayKit",
         "summary": "build and test a PT2399-based analogue delay pedal kit",
@@ -5762,7 +5772,8 @@
             "Boldport",
             "Cordwood",
             "Arduino",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/boldportclub/cordwood/aanimate/": {
@@ -5852,7 +5863,7 @@
             "Kit"
         ]
     },
-    "/electronics101/guitareffects/bazzfuss/": {
+    "/audio/guitareffects/bazzfuss/": {
         "id": 262,
         "title": "BazzFuss",
         "summary": "the Bazz Fuss \"chocolate noisette\" - a super-minimalist overdrive/distortion/fuzz effect circuit",
@@ -6172,7 +6183,8 @@
         "summary": "test an LC oscillator of just 5 components",
         "tags": [
             "LC",
-            "Oscillators"
+            "Oscillators",
+            "J201"
         ]
     },
     "/electronics101/555timer/dice/": {
@@ -6520,7 +6532,9 @@
         "summary": "measure the resonant frequency of an LC circuit or inductance of an inductor ",
         "tags": [
             "Oscillators",
-            "LC"
+            "LC",
+            "J201",
+            "J301"
         ]
     },
     "/esp8266/diydevboard/": {
@@ -7016,7 +7030,9 @@
         "summary": "simple AM transmitter with OpAmp carrier/mixer",
         "tags": [
             "Radio",
-            "OpAmp"
+            "OpAmp",
+            "J201",
+            "LF347"
         ]
     },
     "/electronics101/oscillators/highfrequencyopamposcillators/": {
@@ -7273,7 +7289,8 @@
         "summary": "switch an independent power source using an Arduino and n-channel JFET",
         "tags": [
             "JFET",
-            "Arduino"
+            "Arduino",
+            "J201"
         ]
     },
     "/playground/r2rdac/": {
@@ -7384,7 +7401,9 @@
         "summary": "a version of the runoffgroove Ruby LM386 guitar amp",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386",
+            "J201"
         ]
     },
     "/playground/led8x8/ledcontroldemo/": {
@@ -7439,7 +7458,8 @@
         "summary": "an LM386 fixed-gain guitar headphone amp",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/audio/audioamps/volumecontrolpoweramp/": {
@@ -7448,7 +7468,8 @@
         "summary": "an LM386 fixed-gain audio power amp with volume control",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/audio/audioamps/smokey/": {
@@ -7457,7 +7478,8 @@
         "summary": "quick build of a Smokey-like LM386 guitar power amp",
         "tags": [
             "Amplifier",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/audio/audioamps/littlegem/": {
@@ -7466,7 +7488,8 @@
         "summary": "a basic Smokey-inspired LM386 guitar power amp",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/electronics101/bjt/longtailpair/": {
@@ -7502,7 +7525,8 @@
         "summary": "switch an independent power source using an Arduino and p-channel JFET",
         "tags": [
             "JFET",
-            "Arduino"
+            "Arduino",
+            "J201"
         ]
     },
     "/playground/plotnvalues/": {

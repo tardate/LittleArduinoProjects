@@ -41,8 +41,8 @@ The circuit breaks down into a number of stages/sub-systems:
 * no gain (i.e. gain = 1)
 * high input impedance (essentially ~ 510kΩ)
 * output feeds two stages:
-  * clipping amp
-  * dry side of the bypass
+    * clipping amp
+    * dry side of the bypass
 
 #### Clipping Amp
 
@@ -50,8 +50,8 @@ The circuit breaks down into a number of stages/sub-systems:
 * originals use the [JRC4558](https://www.electrosmash.com/jrc4558-analysis) - because it was "cheap". May be replaced by other dual op-amps but whether the result suffers is a matter of opinion.
 * input is biased to AC ground with ~10kΩ.
 * gain = 1 + Zf/Zi
-  * Zf is the equivalent impedance of the feedback network
-  * Zi is equivalent impedance to ground
+    * Zf is the equivalent impedance of the feedback network
+    * Zi is equivalent impedance to ground
 
 Zi comprises 4.7KΩ resistor and 0.047µF capacitor. When capacitor impedance equals the resistor, gain falls off towards 1.
 
@@ -117,26 +117,26 @@ JFET flip-flop bypass eliminated, and true bypass of the entire signal path swit
 Input/output buffer transistor substitution:
 
 * Original used the [2SC1815](https://www.futurlec.com/Transistors/2SC1815.shtml), but this is not particularly critical. Key characteristics:
-  * ß: 70-700 (typically ~300 in the TS-808 configuration)
-  * Noise figure 1dB at 1kHz
+    * ß: 70-700 (typically ~300 in the TS-808 configuration)
+    * Noise figure 1dB at 1kHz
 * Can be replaced with newer components with similar gain and perhaps even better low-noise performance
 
 Options:
 
 * [2N4401](https://www.futurlec.com/Transistors/2N4401.shtml)
-  * ß: 40-500
+    * ß: 40-500
 * [2N3904](https://www.futurlec.com/Transistors/2N3904.shtml):
-  * ß: 100-400
-  * Noise figure 5dB at 1kHz
-  * might be a bit noisy as a replacement
+    * ß: 100-400
+    * Noise figure 5dB at 1kHz
+    * might be a bit noisy as a replacement
 * [2N5089](https://www.futurlec.com/Transistors/2N5089.shtml)
-  * ß: 450-1800
-  * Noise figure 2dB at 1kHz
-  * Low noise, but increased gain(?) might need compensation
+    * ß: 450-1800
+    * Noise figure 2dB at 1kHz
+    * Low noise, but increased gain(?) might need compensation
 * [S9014](https://www.futurlec.com/Transistors/S9014.shtml)
-  * ß: 60-1000
-  * Noise figure 0.9dB at 1kHz
-  * looks like a great alternative
+    * ß: 60-1000
+    * Noise figure 0.9dB at 1kHz
+    * looks like a great alternative
 
 Clipping diode substitution:
 
@@ -152,21 +152,21 @@ Some possible replacements, either for availability or aesthetic reasons, includ
 
 | Component                                                                                                        | Notes                                                          | Tested? |
 |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|---------|
-| NJM4558 by New Japan Radio Company                                                                               | Used by Ibanez in some Tuber Screamer models/later models      |   |
-| RC4559 by Texas Instruments                                                                                      |                                                                |   |
-| NJM4556 by Japan Radio Company.                                                                                  | Sound signature of the original with extra dynamics and attack |   |
-| TLC272 by Texas Instruments.                                                                                     | It has a nice, complex distorted sound                         |   |
-| TL072 by Texas Instruments, ST Microelectronics, and SGS Thomson Microelectronics                                |                                                                |   |
-| TL062 by Texas Instruments, ST Microelectronics, SGS Thomson Microelectronics, and Motorola                      |                                                                |   |
-| TL082 by National Semiconductor, Texas Instruments, ST Microelectronics, and Motorola                            |                                                                |   |
-| LM1458 by National Semiconductor and Fairchild Semiconductor                                                     |                                                                |   |
-| LM833 by National Semiconductor,ST Microelectronics, SGS Thomson Microelectronics, Motorola and ON Semiconductor |                                                                |   |
-| OPA2107 by Analog Devices.                                                                                       | Rounder sound, makes it ideal for blues players                |   |
-| OP275 by Analog Devices                                                                                          |                                                                |   |
-| OPA2604 by  Burr-Brown and Texas Instruments                                                                     |                                                                |   |
-| TLC2272, TLC2202 by Texas Instruments                                                                            |                                                                |   |
-| LT1213 by Linear Technology                                                                                      |                                                                |   |
-| MC33078 by Texas Instruments.                                                                                    | With very nice highs                                           |   |
+| NJM4558 by New Japan Radio Company                                                                               | Used by Ibanez in some Tuber Screamer models/later models      |         |
+| RC4559 by Texas Instruments                                                                                      |                                                                |         |
+| NJM4556 by Japan Radio Company.                                                                                  | Sound signature of the original with extra dynamics and attack |         |
+| TLC272 by Texas Instruments.                                                                                     | It has a nice, complex distorted sound                         |         |
+| TL072 by Texas Instruments, ST Microelectronics, and SGS Thomson Microelectronics                                |                                                                |         |
+| TL062 by Texas Instruments, ST Microelectronics, SGS Thomson Microelectronics, and Motorola                      |                                                                |         |
+| TL082 by National Semiconductor, Texas Instruments, ST Microelectronics, and Motorola                            |                                                                |         |
+| LM1458 by National Semiconductor and Fairchild Semiconductor                                                     |                                                                |         |
+| LM833 by National Semiconductor,ST Microelectronics, SGS Thomson Microelectronics, Motorola and ON Semiconductor |                                                                |         |
+| OPA2107 by Analog Devices.                                                                                       | Rounder sound, makes it ideal for blues players                |         |
+| OP275 by Analog Devices                                                                                          |                                                                |         |
+| OPA2604 by  Burr-Brown and Texas Instruments                                                                     |                                                                |         |
+| TLC2272, TLC2202 by Texas Instruments                                                                            |                                                                |         |
+| LT1213 by Linear Technology                                                                                      |                                                                |         |
+| MC33078 by Texas Instruments.                                                                                    | With very nice highs                                           |         |
 
 #### Increased Input Impedance
 
@@ -187,13 +187,13 @@ The factory components (4.7KΩ resistor and 0.047µF capacitor) form a high pass
 
 Changing the capacitor value shifts the frequency. Common alternatives:
 
-| Capacitor | Corner Frequency |
-|-----------|------------------|
+| Capacitor | Corner Frequency                                                                        |
+|-----------|-----------------------------------------------------------------------------------------|
 | 0.047µF   | [720 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+0.047%C2%B5F)) |
-| 0.1µF     | [339 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+0.1%C2%B5F)) |
-| 0.22µF    | [154 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+0.22%C2%B5F)) |
-| 0.47µF    | [72 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+0.47%C2%B5F))  |
-| 1.0µF     | [34 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+1%C2%B5F))  |
+| 0.1µF     | [339 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+0.1%C2%B5F))   |
+| 0.22µF    | [154 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+0.22%C2%B5F))  |
+| 0.47µF    | [72 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+0.47%C2%B5F))   |
+| 1.0µF     | [34 Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*4.7k%CE%A9+*+1%C2%B5F))      |
 
 #### Keeley 808 Reissue Modifications
 

@@ -28,7 +28,7 @@ They are actually configured as binary sound level triggers. An example is cover
 
 The electret output is fed to an active high-pass filter:
 
-[![Active_Highpass_Filter_RC](./assets/Active_Highpass_Filter_RC.png?raw=true)](https://en.wikipedia.org/wiki/High-pass_filter)
+[![filter](./assets/Active_Highpass_Filter_RC.png?raw=true)](https://en.wikipedia.org/wiki/High-pass_filter)
 
 The expected passband gain is `−R2/R1` and corner frequency `1/2πRC Hz`.
 
@@ -50,6 +50,8 @@ Here's the actual schematic and indicative breadboard layout. Some points to not
 * The electret microphone is biased with a 2.2kΩ R1. If higher voltage supply is used, for example 9V, this may be increased to say 10kΩ.
 * The AC output coupling via C4 is optional.
 * C2 simply provides stability for the non-inverting reference voltage. It is not critical.
+
+Designed with Fritzing: see [ElectretPreamp.fzz](./ElectretPreamp.fzz).
 
 ![bb](./assets/ElectretPreamp_bb.jpg?raw=true)
 

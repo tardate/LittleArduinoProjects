@@ -16,7 +16,6 @@ I was thinking about doing a complete analogue solution with bandpass filters (p
 very tight passband frequencies). Maybe later, but to start I wanted to try an Arduino-based approach
 I'd seen in an [Instructables article](https://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by Nicole Grimwood.
 
-
 ### Input Preamp and Filter
 
 I've modified the circuit to take an input from an electret so I can use it with acoustic instruments,
@@ -40,7 +39,6 @@ Here's the contruction I used:
 And a typical output signal (open D string):
 
 ![scope_d](./assets/scope_d.gif?raw=true)
-
 
 ## Arduino Sketch
 

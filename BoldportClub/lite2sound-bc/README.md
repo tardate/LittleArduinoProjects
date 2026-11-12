@@ -44,14 +44,12 @@ See the [LEAP#420 CuttleTalk](./CuttleTalk) project for a full demo of the finis
 Note: some resistors are provided in extra quantity than is required, and there are
 two versions of the photodiode.
 
-
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
 As uaual, a beautiful PCB designed by Boldport:
 
 ![kit_pcb_front](./assets/kit_pcb_front.jpg?raw=true)
 ![kit_pcb_rear](./assets/kit_pcb_rear.jpg?raw=true)
-
 
 ### Two Photodiodes?
 
@@ -77,19 +75,15 @@ QSD2030F
 
 I'm not planning extensive outdoor usage, so I built the kit with the standard QSD2030 without daylight filter.
 
-
-
-## Construction Tips from BC Slack!
+## Construction Tips from BC Slack
 
 > …oh, the feet go on the _tin_. This sense makes (@kpreid)
 
 .. saved me doing something stupid.
 
-
 > the board with this kit seemed to absorb _a lot_ of heat when I hit it with hot air. took some time to heat up (@kbx81)
 
 .. I used hot air for the SMD assembly, but didn't have similar issues.
-
 
 ## Circuit
 
@@ -107,7 +101,6 @@ With stickers attached to the case:
 
 ![build_case_top](./assets/build_case_top.jpg?raw=true)
 ![build_case_bottom](./assets/build_case_bottom.jpg?raw=true)
-
 
 ## Credits and References
 

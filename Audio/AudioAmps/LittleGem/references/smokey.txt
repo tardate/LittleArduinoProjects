@@ -1,0 +1,308 @@
+From:
+
+          Dave Stork
+    Date:
+             8/5/2001 5:19 PM
+ Subject:
+          Observations on the Smokey circuit
+
+
+
+Just for fun, I built one of these during my lunch break the other day. I built it
+inside an Altoids can and used the circuit exactly as shown. Here are my
+observations after a couple of afternoons of playing with the circuit.
+
+As drawn, the circuit wants to oscillate badly and is very sensitive to component
+placement and the length of the battery leads. The supply pin (pin 6) should be
+bypassed to ground, as close to the chip as possible, using at least 0.1uf. This
+took care of the audible oscillation, but there were still some spurs that
+manifested themselves as spiky "farting" on otherwise clean tones. This might
+account for the complaints in various reviews that I've read that the Smokey is
+incapable of producing clean tones. Adding a 10 ohm resistor and .022 cap in
+series from pin 5 (output) to ground stabilized the amp and restored the clean
+tones. It did not have a negative effect on the distorted tones. You can try values
+from .01 to .1uF if you like. This R-C network should also be located close to
+the chip.
+
+The 47uF output coupling cap shown on the schematic will start rolling off bass
+around 400Hz. This may have been done on purpose to keep the small speaker
+from farting out. With a "real" guitar speaker connected, you'll get better results
+with a larger value cap. Try any value you like, up to 250uF for guitar. Even with
+the bigger cap, the little transistor radio speaker I was using didn't sound any
+worse than it did before.
+
+Incidentally, those little speakers are usually optimized for good treble response.
+I don't know of any tiny speakers designed for guitar use. (Are you reading this,
+Ted?)  You can use a variety of mechanical means of damping the cone to get
+rid of the "buzzies" and make the speaker sound a little better. This can be as
+simple as putting plastic sheet or cloth in front of the cone, or perhaps even a
+little thin cloth on the cone. If you can make the cone a little more dense, it won't
+respond to high frequencies as well.
+
+Some reverse polarity protection wouldn't hurt, especially if the amp might ever
+be used with an external power supply. A silicon rectifier diode between the
+supply and ground (cathode to supply, anode to ground) makes a crude but
+effective "crowbar."
+
+I don't know if Zinky did this by design, by accident, or just to save the cost of a
+part, but one really unusual thing about the design as drawn is that pins 1 and 8
+are connected together directly instead of through a cap. Not only does this
+bypass the emitter of the differential input pair for higher gain, but it also affects
+the DC operating point of the internal transistors, which must have some effect
+on the tone. You could replace this shorting jumper with a 10K pot and see how
+the tone and gain of the circuit changes as you turn it up and down.
+
+A very useful addition is a pot on the output to allow you to control the volume.
+A 25 ohm pot would work well whether you're using the unit to drive a speaker
+or the input of another amp. When driving an 8 ohm speaker, the minimum
+resistance seen by the amp will be 6 ohms, well within permissible limits.
+
+The little amp sounds fairly dark, which might be due to the guitar pickup being
+loaded by the 50K input impedance of the LM386. This might also explain the
+fairly low value of output coupling cap Zinky chose... He may have been trying
+to balance out the resulting muddiness. An input buffer seems a good idea here.
+A buffer would also allow you to insert gain and tone controls at the input to the
+386, with the gain of the buffer being chosen to make up for the insertion loss of
+the controls, plus maybe a little more gain for more distortion if you like. The
+possibilities of the basic concept are endless.
+
+I was surprised by the performance of this circuit, and I can see why so many
+Smokeys have been sold. The distortion is really dynamic and responds well to
+pick attack; it's also surprisingly smooth for a solid state overdrive sound. With
+some simple mods as outlined above, it cleans up very nicely when you back off
+your guitar volume or lighten up your pick attack. It drives a "real" guitar speaker
+(in my case, the 10" alnico eminence in my Pro Jr.) to surprisingly loud levels;
+and it makes a great stompbox, if you add an output level control. There are
+many improvements and refinements that can be made, and I look forward to
+experimenting with this circuit in my spare time.
+
+I never gave much thought to the LM386 for guitar use--I always considered it a
+little "junk" chip for transistor radios and tape decks--but Zinky's simple, clever
+concept really has me intrigued. This is one of the best little solid-state practice
+amps I've ever used, even with its shortcomings.
+
+ START NEW THREAD
+                     REPLY
+                                   PREVIOUS
+                                                    LIST
+
+                          Read 211 times
+
+   From:
+
+          Bruce   (MissionAmp@aol.com)
+    Date:
+             8/5/2001 9:47 PM
+ Subject:
+          Re: Observations on the Smokey circuit
+
+
+
+Jeeze Dave, I didn't know we were allowed to have lunch let alone do all that
+during lunch!
+damn bro'...your the "man"!
+Now let's stick a padded down high zed FET in front with a volume pot with
+tweed type tone stack between it and chip input, hook the output up to one of
+Ted's inexpensive 8" signature speakers... all in a little 10" x 12' x 6" cab.
+We can have a Storknose amp.
+Bruce
+
+ START NEW THREAD
+                     REPLY
+                                   PREVIOUS
+                                                    LIST
+
+                          Read 184 times
+
+   From:
+
+          Dave Stork
+    Date:
+             8/6/2001 1:44 AM
+ Subject:
+          Re: Observations on the Smokey circuit
+
+
+
+Bruce wrote:
+
+Jeeze Dave, I didn't know we were allowed to have lunch let alone do all
+that during lunch!
+damn bro'...your the "man"!
+
+Lunch was an unknown concept when I was a full-time amp tech. But now I'm
+an engineer for Uncle Sam, and lunch is mandatory. Gotta love it!
+
+Luckily for me, my office is a workshop well-stocked with parts, tools and test
+equipment. Along with the stack of empty Altoids cans I've been accumulating
+on my desk, I had everything I needed to build my "Smokey" in no time flat.
+
+Now let's stick a padded down high zed FET in front with a volume pot
+with tweed type tone stack between it and chip input, hook the output up to
+one of Ted's inexpensive 8" signature speakers... all in a little 10" x 12' x
+6" cab.
+
+Yep, that's basically what I had in mind as a next step... either a JFET buffer or
+an op-amp, and a simple tone and gain control at the input to the 386. That's a
+good suggestion about the 8" Weber; I hadn't thought of that. I know Ted was
+making Champ speakers, but I haven't looked at his product line lately.
+
+We can have a Storknose amp.
+
+Would the volume knob be shaped like a bill?
+
+Speaking of the Pignose, I bought one a while back and discovered the only
+schematic available on the web was full of errors. So I carefully traced mine out
+and created a corrected schematic. I can CAD it and post it if there's any
+interest.
+
+Small amps have captured my interest lately because I live in an apartment and
+have been getting back into playing lately, after a long hiatus.
+
+ START NEW THREAD
+                     REPLY
+                                   PREVIOUS
+                                                    LIST
+
+                          Read 175 times
+
+   From:
+
+          Tim C.   (tcowles@cableone.net)
+    Date:
+             8/6/2001 2:01 AM
+ Subject:
+          Re: Observations on the Smokey circuit
+
+
+
+Dave,
+
+Shoot! Now you have given me another project to work on. I didn't need that!
+
+
+Really, thanks for taking the time to post all that valuable information.
+
+By the way, where did you get the speaker and what were the specs of it?
+
+Thanks,
+Tim C.
+
+ START NEW THREAD
+                     REPLY
+                                   PREVIOUS
+                                                    LIST
+
+                          Read 182 times
+
+   From:
+
+          Dave Stork
+    Date:
+             8/6/2001 2:06 AM
+ Subject:
+          Re: Observations on the Smokey circuit
+
+
+
+By the way, where did you get the speaker and what were the specs of it?
+
+The speaker? Oh geez... It's just a little crap 8 ohm square thing, alnico magnet,
+about 3" wide. I bought a dozen of them from Jameco to replace dead speakers
+in the intercom system in our TV studio.
+
+Like I said, the little amp sounds much better through a "real" guitar speaker.
+But as I wrote earlier, you can kludge the little junk transistor radio speakers to
+sound slightly better for guitar, at the expense of lowered output. The main thing
+is to cut the treble response.
+
+ START NEW THREAD
+                     REPLY
+                                   PREVIOUS
+                                                    LIST
+
+                          Read 108 times
+
+   From:
+
+          Dave Stork
+    Date:
+             8/10/2001 5:01 PM
+ Subject:
+          The circuit mutates...
+
+
+
+So, here's where I'm at with the LM386 amp...
+
+Common-source JFET amp stage driving tweed-type tone and volume controls
+into inverting input of 386, series R-C from output to ground to stabilize amp as
+per previous post, 220uF output coupling cap, master volume control to
+speaker/line out.
+
+I am very, very pleased with the tone and response of this little monster. It has
+much more oomph than the original Smokey circuit, and is definitelty less prone
+to oscillate  I'll post a schematic when my experiments are done.
+
+ START NEW THREAD
+                     REPLY
+                                   PREVIOUS
+                                                    LIST
+
+                          Read 73 times
+
+   From:
+
+          Bruce   (MissionAmp@aol.com)
+    Date:
+             8/10/2001 9:25 PM
+ Subject:
+          Re: The circuit mutates...
+
+
+
+     Common-source JFET amp stage driving tweed-type tone and
+     volume controls into inverting input of 386, series R-C from
+     output to ground to stabilize amp as per previous post, 220uF
+     output coupling cap, master volume control to speaker/line
+     out.
+
+     I am very, very pleased with the tone and response of this little
+     monster.
+
+HA ha ha.. thank you, I thought for sure I'd be the one to have to do it!
+Should be kinda tubey sounding with a little RC "sizzle" control circuit in there.
+Bruce
+
+ START NEW THREAD
+                     REPLY
+                                   PREVIOUS
+                                                    LIST
+
+                          Read 18 times
+
+   From:
+
+          Dave Stork
+    Date:
+             8/11/2001 5:27 PM
+ Subject:
+          Re: The circuit mutates...
+
+
+
+Should be kinda tubey sounding with a little RC "sizzle" control circuit in
+there.
+
+It does sound and play surprisingly "tubey"... not much of the usual solid-state
+nastiness going on at all. But the discrete JFET amp is, by its very nature, rather
+low gain and high output impedance and is loaded down somewhat even by the
+simple volume-tone control arrangement I used. I had to use fairly low-value
+pots because the following impedance (the input to the LM386) is pretty low
+(50K). It actually sounds a bit more ballsy when the JFET drain is coupled (via
+.022uF) right to the 386 input. With that arrangement, it makes a good "no
+controls" circuit in the spirit of the original Smokey.
+
+For volume and tone controls, though, I'm starting to think that a better
+approach might be to use an opamp input stage or perhaps two JFET stages.
+More experiments to take place this afternoon...

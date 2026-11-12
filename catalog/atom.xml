@@ -53,8 +53,8 @@
     <g:image_link>https://leap.tardate.com/equipment/workbenchlighting/assets/workbenchlighting_build.jpg</g:image_link>
     <updated>2026-10-28T04:23:00Z</updated>
     <title>#865 Workbench Lighting II</title>
-    <summary>Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/workbenchlighting/assets/workbenchlighting_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Revamping the lighting for my standing workbench, with some COB LED lights, custom frame and backdrop.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Revamping the lighting for my standing workbench, with some COB LED lights, custom frame and backdrop.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/workbenchlighting/assets/workbenchlighting_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Tools"/>
   </entry>
@@ -3632,6 +3632,8 @@
     <summary>Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioeffects/jetengine/assets/jetengine_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Audio"/>
+    <category term="LM386"/>
+    <category term="CD4046"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/arm/1bitsy/baremetalblinky/</id>
@@ -4080,6 +4082,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/fm/frequencyconverter/assets/frequencyconverter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="FM"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/subtractionloopcounterkit/</id>
@@ -4405,6 +4408,8 @@
     <summary>a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/oscillators/crystallocked1khzoscillator/assets/crystallocked1khzoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
+    <category term="J201"/>
+    <category term="CD4060"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/usingtemplates/</id>
@@ -4540,6 +4545,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Taming a very simple direct conversion FM receiver&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/fm/simplestdirectreceiver/assets/simplestdirectreceiver_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="FM"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/ang860b/</id>
@@ -4620,6 +4626,7 @@
     <category term="Breadboard Bling"/>
     <category term="Audio"/>
     <category term="OpAmp"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/breadboardbling/duplextuningcapacitor/</id>
@@ -4703,13 +4710,13 @@
     <category term="Kit"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/guitareffects/goblin/</id>
-    <link href="https://leap.tardate.com/electronics101/guitareffects/goblin/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/guitareffects/goblin/assets/goblin_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/audio/guitareffects/goblin/</id>
+    <link href="https://leap.tardate.com/audio/guitareffects/goblin/"/>
+    <g:image_link>https://leap.tardate.com/audio/guitareffects/goblin/assets/goblin_build.jpg</g:image_link>
     <updated>2016-08-28T13:00:37Z</updated>
     <title>#461 Goblin</title>
     <summary>the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/guitareffects/goblin/assets/goblin_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/guitareffects/goblin/assets/goblin_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Guitar Effects"/>
     <category term="Audio"/>
   </entry>
@@ -5212,6 +5219,8 @@
     <category term="PCB Design"/>
     <category term="Audio"/>
     <category term="Kit"/>
+    <category term="LM386"/>
+    <category term="TL072"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/commonemitterhartley/</id>
@@ -5427,6 +5436,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/pixie/assets/pixie_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="Kit"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/usbprotector/</id>
@@ -6139,13 +6149,13 @@
     <category term="Kit"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/guitareffects/delaykit/</id>
-    <link href="https://leap.tardate.com/electronics101/guitareffects/delaykit/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/guitareffects/delaykit/assets/delaykit_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/audio/guitareffects/delaykit/</id>
+    <link href="https://leap.tardate.com/audio/guitareffects/delaykit/"/>
+    <g:image_link>https://leap.tardate.com/audio/guitareffects/delaykit/assets/delaykit_build.jpg</g:image_link>
     <updated>2016-08-28T13:00:37Z</updated>
     <title>#339 DelayKit</title>
     <summary>build and test a PT2399-based analogue delay pedal kit</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;build and test a PT2399-based analogue delay pedal kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/guitareffects/delaykit/assets/delaykit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;build and test a PT2399-based analogue delay pedal kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/guitareffects/delaykit/assets/delaykit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Guitar Effects"/>
     <category term="Audio"/>
     <category term="Kit"/>
@@ -6974,6 +6984,7 @@
     <category term="Cordwood"/>
     <category term="Arduino"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/cordwood/aanimate/</id>
@@ -7079,13 +7090,13 @@
     <category term="Kit"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/guitareffects/bazzfuss/</id>
-    <link href="https://leap.tardate.com/electronics101/guitareffects/bazzfuss/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/guitareffects/bazzfuss/assets/bazzfuss_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/audio/guitareffects/bazzfuss/</id>
+    <link href="https://leap.tardate.com/audio/guitareffects/bazzfuss/"/>
+    <g:image_link>https://leap.tardate.com/audio/guitareffects/bazzfuss/assets/bazzfuss_build.jpg</g:image_link>
     <updated>2016-10-24T10:53:01Z</updated>
     <title>#262 BazzFuss</title>
     <summary>the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/guitareffects/bazzfuss/assets/bazzfuss_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/guitareffects/bazzfuss/assets/bazzfuss_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Guitar Effects"/>
     <category term="Audio"/>
   </entry>
@@ -7466,6 +7477,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test an LC oscillator of just 5 components&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/minimallcoscillator/assets/minimallcoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LC"/>
     <category term="Oscillators"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/dice/</id>
@@ -7884,6 +7896,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;measure the resonant frequency of an LC circuit or inductance of an inductor &lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/lcresonator/assets/lcresonator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
     <category term="LC"/>
+    <category term="J201"/>
+    <category term="J301"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/diydevboard/</id>
@@ -8484,6 +8498,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;simple AM transmitter with OpAmp carrier/mixer&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/am/opamptransmitter/assets/opamptransmitter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="OpAmp"/>
+    <category term="J201"/>
+    <category term="LF347"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/highfrequencyopamposcillators/</id>
@@ -8795,6 +8811,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;switch an independent power source using an Arduino and n-channel JFET&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/switchnjfet/assets/switchnjfet_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="JFET"/>
     <category term="Arduino"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/r2rdac/</id>
@@ -8930,6 +8947,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a version of the runoffgroove Ruby LM386 guitar amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/ruby/assets/ruby_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/led8x8/ledcontroldemo/</id>
@@ -8997,6 +9016,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;an LM386 fixed-gain guitar headphone amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/guitarheadphoneamp/assets/guitarheadphoneamp_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/volumecontrolpoweramp/</id>
@@ -9008,6 +9028,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;an LM386 fixed-gain audio power amp with volume control&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/volumecontrolpoweramp/assets/volumecontrolpoweramp_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/smokey/</id>
@@ -9019,6 +9040,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;quick build of a Smokey-like LM386 guitar power amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/smokey/assets/smokey_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Amplifier"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/littlegem/</id>
@@ -9030,6 +9052,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a basic Smokey-inspired LM386 guitar power amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/littlegem/assets/littlegem_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/bjt/longtailpair/</id>
@@ -9074,6 +9097,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;switch an independent power source using an Arduino and p-channel JFET&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/switchpjfet/assets/switchpjfet_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="JFET"/>
     <category term="Arduino"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/plotnvalues/</id>

@@ -11,12 +11,11 @@ This circuit is based upon an article by Michael Harvey in
 
 * modified to work from a single +5V supply (no longer needing +/- 12V in addition to 5V)
 * some component substitutions:
-  * TL074 replaces LF347 op-amp
-  * J201 replaces MPF102 JFET
+    * TL074 replaces LF347 op-amp
+    * J201 replaces MPF102 JFET
 * removed the phase-lock indicator LEDs
-  * I'm aligning with an oscilloscope
-  * and using the 4th op-amp unit to generate the "half-voltage" virtual ground
-
+    * I'm aligning with an oscilloscope
+    * and using the 4th op-amp unit to generate the "half-voltage" virtual ground
 
 ## Circuit Schematic
 
@@ -25,15 +24,13 @@ This circuit is based upon an article by Michael Harvey in
 Three key changes were required to get this circuit to work well with a single 5V supply:
 
 * use an op-amp unit to generate/buffer the "half-voltage" virtual ground
-* R11 increased to 3kΩ (from 1kΩ), required to provide enough adjutment headroom to lock-on in phase
-* R10 increased to 68kΩ (from 47kΩ), to reduce the gain of the Wien-bridge oscillator and prevent clippping of the resulting sine wave
-
+* R11 increased to 3kΩ (from 1kΩ), required to provide enough adjustment headroom to lock-on in phase
+* R10 increased to 68kΩ (from 47kΩ), to reduce the gain of the Wien-bridge oscillator and prevent clipping of the resulting sine wave
 
 The RC filter in the breadboard build is a bit lose, as I substituted 12kΩ resistors for 15kΩ (due to parts availability),
 so the corner frequency is around
 [1.326kHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+12k%CE%A9+*+10nF)) instead of the desired
 [1.061kHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+15k%CE%A9+*+10nF)). It works "well enough" but distorts the sine wave somewhat.
-
 
 ## Breadboard Build
 
@@ -59,7 +56,7 @@ Next, the buffered sine and square wave outputs with the Wien-bridge oscillator 
 
 Finally, crystal-locked and aligned:
 
-* CH1 (Yellow): crystal-oscillaotr pulse out
+* CH1 (Yellow): crystal-oscillator pulse out
 * CH2 (Blue): buffered sine wave out
 * CH3 (Red): buffered square wave out
 
@@ -67,7 +64,7 @@ Finally, crystal-locked and aligned:
 
 ## Protoboard Build
 
-I built the oscillator as a seperate module that plugs into the main circuit but can also be used on a breadboard:
+I built the oscillator as a separate module that plugs into the main circuit but can also be used on a breadboard:
 
 ![cxo_mod](./assets/cxo_mod.jpg?raw=true)
 ![cxo_mod_back](./assets/cxo_mod_back.jpg?raw=true)

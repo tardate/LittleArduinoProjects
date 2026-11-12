@@ -20,9 +20,13 @@ The circuit is very close to the examples in the datasheet app notes,
 using the "Stand-alone Low-cost Application" method of managing standby and mute inputs.
 The TDA7297 is a very easy ship to work with.
 
-## Construction
+## Circuit Design
+
+Redrawn with Fritzing: see [TDA7297Kit.fzz](./TDA7297Kit.fzz).
 
 ![The Schematic](./assets/TDA7297Kit_schematic.jpg?raw=true)
+
+## Construction
 
 ![TDA7297Kit_parts](./assets/TDA7297Kit_parts.jpg?raw=true)
 

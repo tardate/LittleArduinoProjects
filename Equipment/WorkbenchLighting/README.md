@@ -1,6 +1,6 @@
 # #865 Workbench Lighting II
 
-Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.
+Revamping the lighting for my standing workbench, with some COB LED lights, custom frame and backdrop.
 
 ![Build](./assets/WorkbenchLighting_build.jpg?raw=true)
 
@@ -22,7 +22,7 @@ A single goose-neck lamp from Ikea ([TERTIAL](https://www.ikea.com/sg/en/p/terti
 * it is clamped to the main desk, so does not reposition  as I raise or lower the standing desk
 * It's too dim for both my eyes (blame aging), but also photography.
 
-[![tertail](references/tertial-work-lamp-dark-grey__0609306_pe684440_s5.jpg)](https://www.ikea.com/sg/en/p/tertial-work-lamp-dark-grey-50355395/)
+[![tertial](references/tertial-work-lamp-dark-grey__0609306_pe684440_s5.jpg)](https://www.ikea.com/sg/en/p/tertial-work-lamp-dark-grey-50355395/)
 
 I have procrastinated over improving the situation for ages. I keep looking for replacement lighting options but haven't found anything ideal. Most don't provide enough lumens, or are too flimsy/inflexible.
 

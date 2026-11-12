@@ -2,7 +2,7 @@
     "id": "#096",
     "name": "Smokey",
     "description": "quick build of a Smokey-like LM386 guitar power amp",
-    "categories": "Amplifier, Audio",
+    "categories": "Amplifier, Audio, LM386",
     "relative_path": "Audio/AudioAmps/Smokey",
     "updated_at": "2020-06-06T05:35:40Z",
     "created_at": "2020-06-06T05:35:40Z"
