@@ -140,16 +140,6 @@ Sending data to /dev/cu.usbserial-2420 at 2500000 baud...
 Both the WS2811 and WS2812B operate at a standard data rate of 800 kbps (800 kHz), though older WS2811 chips also support a slower 400 kbps (400 kHz) mode.
 
 I have an old string WS2811 LEDs. They only seem to work at the slower data rate.
-They also interpret the data stream as Red-Green-Blue.
-Sending R-G-B-R-G-B to the first 6 LEDs:
-
-```sh
-$ echo "00FF0000 00FF00 0000FF FF0000 00FF00 0000FF" | ./ws2812bify.py -p /
-dev/cu.usbserial-2420 -b 1250000
-Sending data to /dev/cu.usbserial-2420 at 1250000 baud...
-```
-
-![ws2811-demo](assets/ws2811-demo.jpg)
 
 The demo sequence runs nicely if we cut the baud rate in half:
 
@@ -158,6 +148,16 @@ $ for (( ; ; )) ; do ./ws2812bify.py -p /dev/cu.usbserial-2420 -b 1250000 < demo
 $ ./ws2812bify.py -p /dev/cu.usbserial-2420 -b 1250000 < demos/demo.nua
 Sending data to /dev/cu.usbserial-2420 at 1250000 baud...
 ```
+
+They also interpret the data stream as Red-Green-Blue.
+Sending R-G-B-R-G-B to the first 6 LEDs:
+
+```sh
+$ echo "00FF0000 00FF00 0000FF FF0000 00FF00 0000FF" | ./ws2812bify.py -p /dev/cu.usbserial-2420 -b 1250000
+Sending data to /dev/cu.usbserial-2420 at 1250000 baud...
+```
+
+![ws2811-demo](assets/ws2811-demo.jpg)
 
 ## Credits and References
 
