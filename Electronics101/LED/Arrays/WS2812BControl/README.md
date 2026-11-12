@@ -15,13 +15,30 @@ Steve Schnepp posted how to
 building on earlier work by Josh Levine:
 ["Give Your Raspberry Pi a NeoPixel"](https://wp.josh.com/2014/09/02/give-your-raspberrypi-a-neopixel/).
 
+It has long been on my todo list to try this out from macOS,
+and after a bit of fiddling I have some success driving both
+modern WS2812B COB units and older WS2811 strips from macOS over a CH340 UART-TTL interface.
+
+Conclusions:
+
+* On macOS, need to stream data with a program or script that can set the correct baud rate, rather than rely on `stty`
+* Although strictly over-clicking the CH340, use 2500000 baud for WS2812B
+* Older WS2811 may require reduction to 1250000 baud
+* A 2N7000 MOSFET works nicely to to invert the active-low TTL to active-high WS28xx logic.
+* Data transfer timing is generally reliable, though not 100%.
+
+### About ws2812bify
+
 Steve's [ws2812bify](https://github.com/steveschnepp/ws2812bify) tools
 for controlling a WS2812B strip with an UART were I think developed for Linux or Raspberry Pi.
 Although I can compile them on macOS, they can't be used because they rely on separately setting the
 the UART baud rate with `stty`, but on macOS this can only be used on an open port, and resets to default when closed.
 
+### Python Port for macOS
+
 So, for macOS, I ported the main script to python - see [ws2812bify.py](./ws2812bify.py).
 This takes care of opening the serial port with the required baud rate.
+Usage:
 
 ```sh
 $ ./ws2812bify.py -h
