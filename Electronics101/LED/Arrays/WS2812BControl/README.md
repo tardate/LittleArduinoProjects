@@ -1,4 +1,4 @@
-# #xxx LED Array Control from macOS
+# #868 LED Array Control from macOS
 
 Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.
 

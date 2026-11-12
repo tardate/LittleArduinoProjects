@@ -7,12 +7,26 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-11-06T05:40:00Z</updated>
+  <updated>2026-11-12T04:31:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/led/arrays/ws2812bcontrol/</id>
+    <link href="https://leap.tardate.com/electronics101/led/arrays/ws2812bcontrol/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/arrays/ws2812bcontrol/assets/ws2812bcontrol_build.jpg</g:image_link>
+    <updated>2026-11-12T04:31:00Z</updated>
+    <title>#868 LED Array Control from macOS</title>
+    <summary>Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/arrays/ws2812bcontrol/assets/ws2812bcontrol_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="macOS"/>
+    <category term="CH340"/>
+    <category term="WS2811"/>
+    <category term="WS2812B"/>
+    <category term="LED Array"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/books/electronics-for-today-and-tomorrow/</id>
     <link href="https://leap.tardate.com/books/electronics-for-today-and-tomorrow/"/>
@@ -1579,6 +1593,7 @@
     <category term="AVR"/>
     <category term="macOS"/>
     <category term="USB"/>
+    <category term="CH340"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/applesilicon/</id>

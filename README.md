@@ -1,6 +1,6 @@
-# 867 Little Electronic Art Projects
+# 868 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Electronics for Today and Tomorrow](./books/electronics-for-today-and-tomorrow) - Book Notes: Electronics for Today and Tomorrow, by Tom Duncan, John Murray. First published December 31, 1985
+> Latest addition :sparkles: [LED Array Control from macOS](./Electronics101/LED/Arrays/WS2812BControl) - Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
