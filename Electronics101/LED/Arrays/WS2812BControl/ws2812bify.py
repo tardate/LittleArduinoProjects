@@ -54,6 +54,12 @@ def scan_input_line():
 
   return colors, duration_ms
 
+def buffer_colors(colors):
+  buffer = bytearray()
+  for color in colors:
+    buffer.extend(convert(color))
+  return buffer
+
 def scan_input_lines():
   global verbose
 
@@ -63,10 +69,7 @@ def scan_input_lines():
     if not colors:
       break
 
-    buffer = bytearray()
-
-    for color in colors:
-      buffer.extend(convert(color))
+    buffer = buffer_colors(colors)
 
     if verbose:
       print(f"Read line: {len(colors)} colors, duration: {duration_ms} ms, buffer size: {len(buffer)} bytes")
@@ -76,10 +79,34 @@ def scan_input_lines():
   return line_buffers
 
 def send_buffers(line_buffers, port, baudrate):
-  print(f"Sending data to {port} at {baudrate} baud...")
+  print(f"Sending buffered data to {port} at {baudrate} baud...")
   ser = serial.Serial(port, baudrate=baudrate, timeout=1)
 
   for buffer, duration_ms in line_buffers:
+    ser.write(buffer)
+    ser.flush()
+    time.sleep(RESET_DELAY)
+    time.sleep(duration_ms / 1000.0)
+
+  ser.close()
+
+def stream_input_lines(port, baudrate):
+  global verbose
+
+  print(f"Streaming data to {port} at {baudrate} baud...")
+  ser = serial.Serial(port, baudrate=baudrate, timeout=1)
+
+  while True:
+    colors, duration_ms = scan_input_line()
+    if not colors:
+      break
+
+    buffer = buffer_colors(colors)
+
+    if verbose:
+      print(f"Read line: {len(colors)} colors, duration: {duration_ms} ms, buffer size: {len(buffer)} bytes")
+      print(f"Buffer content: {buffer.hex()}")
+
     ser.write(buffer)
     ser.flush()
     time.sleep(RESET_DELAY)
@@ -97,13 +124,17 @@ def main():
   )
   parser.add_argument('-p', '--port', required=True, help='Serial device name')
   parser.add_argument('-b', '--baudrate', type=int, default=2500000, help='Baud rate for serial communication')
+  parser.add_argument('-s', '--stream', action='store_true', default=False, help='Stream each line as received, default is to read all lines before sending')
   parser.add_argument('-v', '--verbose', action='store_true', default=False, help='Enable verbose output')
   args = parser.parse_args()
 
   global verbose
   verbose = args.verbose
 
-  send_buffers(scan_input_lines(), args.port, args.baudrate)
+  if args.stream:
+    stream_input_lines(args.port, args.baudrate)
+  else:
+    send_buffers(scan_input_lines(), args.port, args.baudrate)
 
 if __name__ == '__main__':
   main()

@@ -42,15 +42,17 @@ Usage:
 
 ```sh
 $ ./ws2812bify.py -h
-usage: ws2812bify.py [-h] -p PORT [-b BAUDRATE] [-v]
+usage: ws2812bify.py [-h] -p PORT [-b BAUDRATE] [-s] [-v]
 
-WS2812B Control. Reads NUA-format color data from stdin and sends it to a serial device. NUA hex format: [DD]RRGGBB[ RRGGBB[ RRGGBB] ... ] where DD is the duration in 10ms units, and RRGGBB is the color, though some devices read the color as GGRRBB.
+WS2812B Control. Reads NUA-format color data from stdin and sends it to a serial device. NUA hex format: [DD]RRGGBB[ RRGGBB[ RRGGBB] ... ] where DD is the duration in 10ms units, and RRGGBB is the color, though some
+devices read the color as GGRRBB.
 
 options:
   -h, --help            show this help message and exit
   -p PORT, --port PORT  Serial device name
   -b BAUDRATE, --baudrate BAUDRATE
                         Baud rate for serial communication
+  -s, --stream          Stream each line as received, default is to read all lines before sending
   -v, --verbose         Enable verbose output
 ```
 
@@ -104,7 +106,10 @@ $ ls -1 /dev/*usb*
 The [demo.nua](demos/demo.nua) file describes a sequence that sends Green-Red-Blue-White pulses up and back down the strip:
 
 ```sh
-./ws2812bify.py -p /dev/cu.usbserial-2420 < demos/demo.nua
+$ ./ws2812bify.py -p /dev/cu.usbserial-2420 < demos/demo.nua
+Sending buffered data to /dev/cu.usbserial-2420 at 2500000 baud...
+$ ./ws2812bify.py -p /dev/cu.usbserial-2420 -s < demos/demo.nua
+Streaming data to /dev/cu.usbserial-2420 at 2500000 baud...
 ```
 
 Or to run continuously:
@@ -159,6 +164,13 @@ Sending data to /dev/cu.usbserial-2420 at 1250000 baud...
 
 ![ws2811-demo](assets/ws2811-demo.jpg)
 
+### Building an Interface Board
+
+To make things a little more convenient, I made a little interface board for connecting the UART-TTL device to a strip.
+See [LEAP#869 UART-TTL to LED Array Interface Board](./InterfaceBoard/).
+
+![Adapter_build](./InterfaceBoard/assets/InterfaceBoard_build.jpg?raw=true)
+
 ## Credits and References
 
 * ["Drive a WS2812B strip with an UART"](https://blog.pwkf.org/2024/03/20/drive-ws2812-uart.html).
@@ -167,3 +179,4 @@ Sending data to /dev/cu.usbserial-2420 at 1250000 baud...
 * ["WS2812B Matrix 4-Pin WS2812 LED Chip & Heatsink 5V 5050 RGB WS2811 IC Built-in 10~1000pcs(100pcs/board)" (aliexpress seller listing)](https://www.aliexpress.com/item/32463004816.html)
     * Purchased strip of 20 for US$3.12 (Nov-2017)
     * No longer available from this seller as of Nov-2026. Same/similar product currently available: ["10-1000PCS WS2812B WS2812 4Pin RGB Led Chip 5050SMD WS2811 IC Black/White PCB With Heatsink DC5V"](https://www.aliexpress.com/item/32560280169.html)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)

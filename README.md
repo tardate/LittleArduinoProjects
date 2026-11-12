@@ -1,6 +1,6 @@
-# 868 Little Electronic Art Projects
+# 869 Little Electronic Art Projects
 
-> Latest addition :sparkles: [LED Array Control from macOS](./Electronics101/LED/Arrays/WS2812BControl) - Controlling a string of WS2811 or WS2812B LEDs from macOS through a CH340-based UART-TTL adapter.
+> Latest addition :sparkles: [UART-TTL to LED Array Interface Board](./Electronics101/LED/Arrays/WS2812BControl/InterfaceBoard) - Building a simple interface board for connecting a CH340-based UART-TTL adapter to an WS2811 or WS2812B LED strip.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
