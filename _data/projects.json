@@ -8240,7 +8240,7 @@
             "Oscillators"
         ]
     },
-    "/ledarraydemos/striptease/": {
+    "/electronics101/led/arrays/ledarraydemos/striptease/": {
         "id": 15,
         "title": "StripTease",
         "summary": "demo a range of effects on the LED strip",
@@ -8249,7 +8249,7 @@
             "Arduino"
         ]
     },
-    "/ledarraydemos/asyncledstripeffects/": {
+    "/electronics101/led/arrays/ledarraydemos/asyncledstripeffects/": {
         "id": 14,
         "title": "LED Array Async Effects",
         "summary": "demo effects on the LED strip driven using timer interrupt",
@@ -8304,7 +8304,7 @@
             "Arduino"
         ]
     },
-    "/ledarraydemos/rgbcalibrate/": {
+    "/electronics101/led/arrays/ledarraydemos/rgbcalibrate/": {
         "id": 8,
         "title": "LED Array RGB Calibration",
         "summary": "quick test to make sure LEDs are correctly addressable and their color can be set correctly",
@@ -8313,7 +8313,7 @@
             "Arduino"
         ]
     },
-    "/ledarraydemos/": {
+    "/electronics101/led/arrays/ledarraydemos/": {
         "id": 7,
         "title": "Programmable LED Arrays",
         "summary": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...",

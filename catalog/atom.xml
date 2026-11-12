@@ -9963,24 +9963,24 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/ledarraydemos/striptease/</id>
-    <link href="https://leap.tardate.com/ledarraydemos/striptease/"/>
-    <g:image_link>https://leap.tardate.com/ledarraydemos/striptease/assets/striptease_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/striptease/</id>
+    <link href="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/striptease/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/striptease/assets/striptease_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
     <title>#015 StripTease</title>
     <summary>demo a range of effects on the LED strip</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demo a range of effects on the LED strip&lt;/p&gt;&lt;img src="https://leap.tardate.com/ledarraydemos/striptease/assets/striptease_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;demo a range of effects on the LED strip&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/striptease/assets/striptease_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED Array"/>
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/ledarraydemos/asyncledstripeffects/</id>
-    <link href="https://leap.tardate.com/ledarraydemos/asyncledstripeffects/"/>
-    <g:image_link>https://leap.tardate.com/ledarraydemos/asyncledstripeffects/assets/asyncledstripeffects_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/asyncledstripeffects/</id>
+    <link href="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/asyncledstripeffects/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/asyncledstripeffects/assets/asyncledstripeffects_build.jpg</g:image_link>
     <updated>2021-03-09T16:33:19Z</updated>
     <title>#014 LED Array Async Effects</title>
     <summary>demo effects on the LED strip driven using timer interrupt</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demo effects on the LED strip driven using timer interrupt&lt;/p&gt;&lt;img src="https://leap.tardate.com/ledarraydemos/asyncledstripeffects/assets/asyncledstripeffects_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;demo effects on the LED strip driven using timer interrupt&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/asyncledstripeffects/assets/asyncledstripeffects_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED Array"/>
     <category term="Timing"/>
     <category term="Arduino"/>
@@ -10041,24 +10041,24 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/ledarraydemos/rgbcalibrate/</id>
-    <link href="https://leap.tardate.com/ledarraydemos/rgbcalibrate/"/>
-    <g:image_link>https://leap.tardate.com/ledarraydemos/rgbcalibrate/assets/rgbcalibrate_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/rgbcalibrate/</id>
+    <link href="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/rgbcalibrate/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/rgbcalibrate/assets/rgbcalibrate_build.jpg</g:image_link>
     <updated>2021-03-09T16:33:19Z</updated>
     <title>#008 LED Array RGB Calibration</title>
     <summary>quick test to make sure LEDs are correctly addressable and their color can be set correctly</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;quick test to make sure LEDs are correctly addressable and their color can be set correctly&lt;/p&gt;&lt;img src="https://leap.tardate.com/ledarraydemos/rgbcalibrate/assets/rgbcalibrate_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;quick test to make sure LEDs are correctly addressable and their color can be set correctly&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/rgbcalibrate/assets/rgbcalibrate_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED Array"/>
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/ledarraydemos/</id>
-    <link href="https://leap.tardate.com/ledarraydemos/"/>
-    <g:image_link>https://leap.tardate.com/ledarraydemos/assets/ledarraydemos_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/</id>
+    <link href="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/assets/ledarraydemos_build.jpg</g:image_link>
     <updated>2021-03-09T16:33:19Z</updated>
     <title>#007 Programmable LED Arrays</title>
     <summary>Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...&lt;/p&gt;&lt;img src="https://leap.tardate.com/ledarraydemos/assets/ledarraydemos_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/arrays/ledarraydemos/assets/ledarraydemos_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED Array"/>
     <category term="Arduino"/>
   </entry>
