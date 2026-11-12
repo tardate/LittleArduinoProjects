@@ -1,4 +1,4 @@
-# #xxx UART-TTL to LED Array Interface Board
+# #869 UART-TTL to LED Array Interface Board
 
 Building a simple interface board for connecting a CH340-based UART-TTL adapter to an WS2811 or WS2812B LED strip.
 
