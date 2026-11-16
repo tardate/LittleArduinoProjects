@@ -11,8 +11,6 @@ is one of numerous LM386-based amplifiers descending from the [original Smokey a
 The "A386" is a "Little Gem" variant by [General Guitar Gadgets](https://generalguitargadgets.com/effects-projects/amps/a386-amp/)
 that basically packages the circuit with a few more frills like a conventional pedal.
 
-![lm386-ref](../../../Electronics101/LM386/assets/lm386-ref.jpg)
-
 The Smokey is about as basic as you can get - [an LM386 and two caps](https://web.archive.org/web/20260518123756/https://electrosmash.com/smokey-amp-analysis),
 see [LEAP#096 Smokey](../Smokey/).
 
@@ -25,6 +23,12 @@ enhances the circuit in a few ways:
 * adds an output-compensating [Zobel Network](https://en.wikipedia.org/wiki/Zobel_network)
 * increases the output coupling capacitor from 47μF to 220μF to improve low-end performance
 * A386 modifications add a power indicator, power-source selection and reverse-polarity protection
+
+### The LM386
+
+The LM386 is a low-voltage, low-power audio power amplifier integrated circuit, originally developed by National Semiconductor in the mid-1970s. It operates from a single power supply, typically between 4V and 12V, and requires very few external components to produce an audio amplifier with a typical output power of up to 0.5W. Its internally configured voltage gain is 20 (26dB). The chip incorporates internal biasing, thermal protection and a bypass pin for reducing power-supply and bias-related noise. With its low component count, small size and ease of use, the LM386 is widely used in battery-powered audio devices, small radios, intercoms, portable speakers and simple guitar practice amplifiers.
+
+![lm386-ref](../../../Electronics101/LM386/assets/lm386-ref.jpg)
 
 ## Circuit Design
 

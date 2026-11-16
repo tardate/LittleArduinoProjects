@@ -7732,7 +7732,7 @@
     {
         "id": "#096",
         "name": "Smokey",
-        "description": "quick build of a Smokey-like LM386 guitar power amp",
+        "description": "Testing the original Smokey LM386 guitar power amp design, with a classic case to hit you straight between the eyes!",
         "categories": "Amplifier, Audio, LM386",
         "relative_path": "audio/audioamps/smokey",
         "updated_at": "2020-06-06T05:35:40Z",
