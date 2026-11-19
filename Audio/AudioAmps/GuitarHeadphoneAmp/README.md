@@ -10,8 +10,6 @@ Yet another LM386-based audio amplifier similar to the
 [LEAP#095 Little Gem](../LittleGem/),
 this time adapted as a guitar headphone amp.
 
-![lm386-ref](../../../Electronics101/LM386/assets/lm386-ref.jpg)
-
 There are various "headphone amp" circuits based on the LM386.
 After trying many of the variations, I found that going back to basics performed just about the best (per the reference circuits in the datasheet).
 
@@ -26,6 +24,12 @@ How it performs:
 
 * clean signal with a slight warm overdrive at maximum guitar output
 * performance can be a bit temperamental on a breadboard, but when I put it on a protoboard it performs quite well.
+
+### The LM386
+
+The LM386 is a low-voltage, low-power audio power amplifier integrated circuit, originally developed by National Semiconductor in the mid-1970s. It operates from a single power supply, typically between 4V and 12V, and requires very few external components to produce an audio amplifier with a typical output power of up to 0.5W. Its internally configured voltage gain is 20 (26dB). The chip incorporates internal biasing, thermal protection and a bypass pin for reducing power-supply and bias-related noise. With its low component count, small size and ease of use, the LM386 is widely used in battery-powered audio devices, small radios, intercoms, portable speakers and simple guitar practice amplifiers.
+
+![lm386-ref](../../../Electronics101/LM386/assets/lm386-ref.jpg)
 
 ## Circuit Design
 
