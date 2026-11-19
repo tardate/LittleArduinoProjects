@@ -1,6 +1,6 @@
-# 869 Little Electronic Art Projects
+# 870 Little Electronic Art Projects
 
-> Latest addition :sparkles: [UART-TTL to LED Array Interface Board](./Electronics101/LED/Arrays/WS2812BControl/InterfaceBoard) - Building a simple interface board for connecting a CH340-based UART-TTL adapter to an WS2811 or WS2812B LED strip.
+> Latest addition :sparkles: [LM386 Amplifier Module Kit](./Audio/AudioAmps/LM386ModuleKit) - Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

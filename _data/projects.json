@@ -1,4 +1,14 @@
 {
+    "/audio/audioamps/lm386modulekit/": {
+        "id": 870,
+        "title": "LM386 Amplifier Module Kit",
+        "summary": "Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.",
+        "tags": [
+            "OpAmp",
+            "Audio",
+            "LM386"
+        ]
+    },
     "/electronics101/led/arrays/ws2812bcontrol/interfaceboard/": {
         "id": 869,
         "title": "UART-TTL to LED Array Interface Board",
