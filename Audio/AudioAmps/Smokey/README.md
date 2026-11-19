@@ -67,11 +67,11 @@ Very Poorly!
 * The circuit is highly prone to noise and uncontrolled oscillation, given the 200x gain, without any of the mitigations recommended in the LM386 datasheet.
     * This is highly dependent on the instrument input and output speaker characteristics.
     * For example, with an external 8Ω hi-hi speaker I used in testing, it behaved itself pretty well.
-* The 200x gain means it is not really possible to dial in a clean tone except at very low volumes
+* The 200x gain means it is not really possible to dial in a clean tone except at very low volumes.
 * The lack of any power supply filtering makes it most suitable for battery use only.
 
 Many improvements to the Smokey have been suggested.
-These appear in later designs, such as
+These appear in later designs, such as:
 
 * [LEAP#095 Little Gem](../LittleGem/)
 * [LEAP#104 Ruby Guitar Amp](../Ruby/)
