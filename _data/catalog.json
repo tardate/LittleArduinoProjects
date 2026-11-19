@@ -7742,7 +7742,7 @@
     {
         "id": "#095",
         "name": "Little Gem",
-        "description": "a basic Smokey-inspired LM386 guitar power amp",
+        "description": "The LittleGem is a basic LM386 guitar power amp, based on the original Smokey design but with some critical improvements that make it a much more stable performer.",
         "categories": "OpAmp, Audio, LM386",
         "relative_path": "audio/audioamps/littlegem",
         "updated_at": "2020-06-06T05:35:40Z",
