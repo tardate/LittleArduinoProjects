@@ -76,7 +76,7 @@ These appear in later designs, such as
 * [LEAP#095 Little Gem](../LittleGem/)
 * [LEAP#104 Ruby Guitar Amp](../Ruby/)
 
-The most useful modification the the Smokey circuit itself would be to put a switch in the gain control between pins 1-8 to allow switching between 20x and 200x gain depending on specific inputs, outputs, and desired effect.
+The most useful modification for the Smokey circuit itself would be to use a switch between pins 1-8 to allow switching between 20x and 200x gain, depending on specific inputs, outputs, and desired effect.
 
 ## Credits and References
 
