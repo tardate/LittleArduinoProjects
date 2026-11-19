@@ -1,6 +1,6 @@
 # #095 Little Gem
 
-A basic Smokey-inspired LM386 guitar power amp.
+The LittleGem is a basic LM386 guitar power amp, based on the original Smokey design but with some critical improvements that make it a much more stable performer.
 
 ![The Build](./assets/LittleGem_build.jpg?raw=true)
 
@@ -97,6 +97,7 @@ In action..
 ![protoboard02b](./assets/protoboard02b.jpg?raw=true)
 
 ![protoboard02c](./assets/protoboard02c.jpg?raw=true)
+![protoboard02d](./assets/protoboard02d.jpg?raw=true)
 
 ## Case
 
@@ -109,7 +110,13 @@ I prepared the parts in
 [little-gem.xs](./box/little-gem.xs)
 for cutting from 3mm MDF on my Library's [xTool S1 Laser Cutter](https://leap.tardate.com/equipment/nlb/xtools1/).
 
-I'll update the notes once I've cut the box.
+Mounting the components after cutting:
+
+![case-build01a](assets/case-build01a.jpg)
+
+Final unit:
+
+![case-build01b](assets/case-build01b.jpg)
 
 ## Credits and References
 
