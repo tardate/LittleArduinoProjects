@@ -2,5 +2,8 @@
     "name": "LM386 Amplifier Module Kit",
     "description": "Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.",
     "categories": "OpAmp, Audio, LM386",
-    "relative_path": "Audio/AudioAmps/LM386ModuleKit"
+    "relative_path": "Audio/AudioAmps/LM386ModuleKit",
+    "updated_at": "2026-11-19T10:47:00Z",
+    "created_at": "2026-11-19T10:47:00Z",
+    "id": "#870"
 }

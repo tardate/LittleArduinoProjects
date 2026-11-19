@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-11-12T09:23:00Z</updated>
+  <updated>2026-11-19T10:47:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/audio/audioamps/lm386modulekit/</id>
+    <link href="https://leap.tardate.com/audio/audioamps/lm386modulekit/"/>
+    <g:image_link>https://leap.tardate.com/audio/audioamps/lm386modulekit/assets/lm386modulekit_build.jpg</g:image_link>
+    <updated>2026-11-19T10:47:00Z</updated>
+    <title>#870 LM386 Amplifier Module Kit</title>
+    <summary>Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/lm386modulekit/assets/lm386modulekit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="OpAmp"/>
+    <category term="Audio"/>
+    <category term="LM386"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/arrays/ws2812bcontrol/interfaceboard/</id>
     <link href="https://leap.tardate.com/electronics101/led/arrays/ws2812bcontrol/interfaceboard/"/>

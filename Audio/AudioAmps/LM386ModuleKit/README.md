@@ -1,4 +1,4 @@
-# #xxx LM386 Amplifier Module Kit
+# #870 LM386 Amplifier Module Kit
 
 Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.
 
