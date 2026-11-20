@@ -1,6 +1,6 @@
-# 870 Little Electronic Art Projects
+# 871 Little Electronic Art Projects
 
-> Latest addition :sparkles: [LM386 Amplifier Module Kit](./Audio/AudioAmps/LM386ModuleKit) - Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.
+> Latest addition :sparkles: [Perfect LM386 Amplifier Circuit?](./Audio/AudioAmps/Perfect386) - Incorporating all of the best design advice to hopefully produce the best LM386 amplifier circuit possible. And it does in fact perform rather impressively.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

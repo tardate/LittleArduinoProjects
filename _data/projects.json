@@ -1,4 +1,14 @@
 {
+    "/audio/audioamps/perfect386/": {
+        "id": 871,
+        "title": "Perfect LM386 Amplifier Circuit?",
+        "summary": "Incorporating all of the best design advice to hopefully produce the best LM386 amplifier circuit possible. And it does in fact perform rather impressively.",
+        "tags": [
+            "OpAmp",
+            "Audio",
+            "LM386"
+        ]
+    },
     "/audio/audioamps/lm386modulekit/": {
         "id": 870,
         "title": "LM386 Amplifier Module Kit",
