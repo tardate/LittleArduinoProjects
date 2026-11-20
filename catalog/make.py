@@ -342,14 +342,13 @@ class Catalog(object):
                     destination.write(template_content)
                     print(f"Created: {destination_path}")
 
-    def _copy_template_files(self, matching, project_path):
+    def _copy_template_files(self, project_path):
         for item in os.listdir(self.template_path):
-            if fnmatch.fnmatch(item, matching):
-                source_item_path = os.path.join(self.template_path, item)
-                destination_item_path = os.path.join(project_path, item)
-                if os.path.isfile(source_item_path) and not os.path.exists(destination_item_path):
-                    shutil.copy(source_item_path, destination_item_path)
-                    print(f"Copied: {destination_item_path}")
+            source_item_path = os.path.join(self.template_path, item)
+            destination_item_path = os.path.join(project_path, item)
+            if os.path.isfile(source_item_path) and not os.path.exists(destination_item_path):
+                shutil.copy(source_item_path, destination_item_path)
+                print(f"Copied: {destination_item_path}")
 
     def _set_template_path(self, template_name):
         template_path = os.path.join(self.script_root, 'templates', template_name)
@@ -402,8 +401,7 @@ class Catalog(object):
         }
         self._create_from_text_template('README.md', os.path.join(project_path, 'README.md'), substitutions)
         self._create_from_text_template('template.ino', os.path.join(project_path, f'{project_name}.ino'), substitutions)
-        self._copy_template_files('*.rb', project_path)
-        self._copy_template_files('*.py', project_path)
+        self._copy_template_files(project_path)
 
         template_fzz = os.path.join(self.template_path, 'template.fzz')
         if os.path.exists(template_fzz):
