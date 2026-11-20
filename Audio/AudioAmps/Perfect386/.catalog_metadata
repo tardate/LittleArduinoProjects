@@ -2,5 +2,8 @@
     "name": "Perfect LM386 Amplifier Circuit?",
     "description": "Incorporating all of the best design advice to hopefully produce the best LM386 amplifier circuit possible. And it does in fact perform rather impressively.",
     "categories": "OpAmp, Audio, LM386",
-    "relative_path": "Audio/AudioAmps/Perfect386"
+    "relative_path": "Audio/AudioAmps/Perfect386",
+    "updated_at": "2026-11-20T08:30:00Z",
+    "created_at": "2026-11-20T08:30:00Z",
+    "id": "#871"
 }

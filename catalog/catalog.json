@@ -1,5 +1,15 @@
 [
     {
+        "name": "Perfect LM386 Amplifier Circuit?",
+        "description": "Incorporating all of the best design advice to hopefully produce the best LM386 amplifier circuit possible. And it does in fact perform rather impressively.",
+        "categories": "OpAmp, Audio, LM386",
+        "relative_path": "audio/audioamps/perfect386",
+        "updated_at": "2026-11-20T08:30:00Z",
+        "created_at": "2026-11-20T08:30:00Z",
+        "id": "#871",
+        "original_relative_path": "Audio/AudioAmps/Perfect386"
+    },
+    {
         "name": "LM386 Amplifier Module Kit",
         "description": "Building a common single-channel LM386 amplifier kit, with some modifications the the input wiring to support auxiliary bypass and mono inputs.",
         "categories": "OpAmp, Audio, LM386",

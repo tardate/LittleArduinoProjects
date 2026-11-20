@@ -1,4 +1,4 @@
-# #xxx Perfect LM386 Amplifier Circuit?
+# #871 Perfect LM386 Amplifier Circuit?
 
 Incorporating all of the best design advice to hopefully produce the best LM386 amplifier circuit possible. And it does in fact perform rather impressively.
 
