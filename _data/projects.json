@@ -1,4 +1,14 @@
 {
+    "/audio/audioamps/lm386module/": {
+        "id": 872,
+        "title": "LM386 Module",
+        "summary": "Testing the LM386 amplifier module from LC Technology, made a little more interesting by a seller who appears to be trading in manufacturing rejects or training boards.",
+        "tags": [
+            "OpAmp",
+            "Audio",
+            "LM386"
+        ]
+    },
     "/audio/audioamps/perfect386/": {
         "id": 871,
         "title": "Perfect LM386 Amplifier Circuit?",

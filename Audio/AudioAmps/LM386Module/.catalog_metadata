@@ -2,5 +2,8 @@
     "name": "LM386 Module",
     "description": "Testing the LM386 amplifier module from LC Technology, made a little more interesting by a seller who appears to be trading in manufacturing rejects or training boards.",
     "categories": "OpAmp, Audio, LM386",
-    "relative_path": "Audio/AudioAmps/LM386Module"
+    "relative_path": "Audio/AudioAmps/LM386Module",
+    "updated_at": "2026-11-24T06:00:00Z",
+    "created_at": "2026-11-24T06:00:00Z",
+    "id": "#872"
 }

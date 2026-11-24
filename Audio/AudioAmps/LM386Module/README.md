@@ -1,4 +1,4 @@
-# #xxx LM386 Module
+# #872 LM386 Module
 
 Testing the LM386 amplifier module from LC Technology, made a little more interesting by a seller who appears to be trading in manufacturing rejects or training boards.
 
