@@ -69,7 +69,7 @@ I fixed the board:
 
 * installed 1kΩ R3
 * installed short for R1
-* installed C2 - I used 22µF as it was the only larger value SMD ceramic I had
+* installed C2 with 22µF as it was the only large value SMD ceramic I have on-hand.
 
 ![build01b](assets/build01b.jpg)
 
