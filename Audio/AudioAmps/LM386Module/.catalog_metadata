@@ -1,0 +1,6 @@
+{
+    "name": "LM386 Module",
+    "description": "Testing the LM386 amplifier module from LC Technology, made a little more interesting by a seller who appears to be trading in manufacturing rejects or training boards.",
+    "categories": "OpAmp, Audio, LM386",
+    "relative_path": "Audio/AudioAmps/LM386Module"
+}
