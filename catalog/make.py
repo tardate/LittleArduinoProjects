@@ -344,6 +344,8 @@ class Catalog(object):
 
     def _copy_template_files(self, project_path):
         for item in os.listdir(self.template_path):
+            if item.startswith('template'):
+                continue
             source_item_path = os.path.join(self.template_path, item)
             destination_item_path = os.path.join(project_path, item)
             if os.path.isfile(source_item_path) and not os.path.exists(destination_item_path):
