@@ -1,0 +1,6 @@
+{
+    "name": "LM386 Oscillator",
+    "description": "Letting the LM386 amplifier break free as the oscillator it always wanted to be.",
+    "categories": "OpAmp, LM386, Oscillators",
+    "relative_path": "Electronics101/LM386/Oscillator"
+}
