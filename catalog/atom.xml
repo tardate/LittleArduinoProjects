@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-11-24T06:00:00Z</updated>
+  <updated>2026-11-26T05:08:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/lm386/oscillator/</id>
+    <link href="https://leap.tardate.com/electronics101/lm386/oscillator/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/lm386/oscillator/assets/oscillator_build.jpg</g:image_link>
+    <updated>2026-11-26T05:08:00Z</updated>
+    <title>#873 LM386 Oscillator</title>
+    <summary>Letting the LM386 amplifier break free as the oscillator it always wanted to be.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Letting the LM386 amplifier break free as the oscillator it always wanted to be.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/lm386/oscillator/assets/oscillator_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="OpAmp"/>
+    <category term="LM386"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/lm386module/</id>
     <link href="https://leap.tardate.com/audio/audioamps/lm386module/"/>

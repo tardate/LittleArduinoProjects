@@ -1,4 +1,4 @@
-# #xxx LM386 Oscillator
+# #873 LM386 Oscillator
 
 Letting the LM386 amplifier break free as the oscillator it always wanted to be.
 
