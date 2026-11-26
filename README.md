@@ -1,6 +1,6 @@
-# 872 Little Electronic Art Projects
+# 873 Little Electronic Art Projects
 
-> Latest addition :sparkles: [LM386 Module](./Audio/AudioAmps/LM386Module) - Testing the LM386 amplifier module from LC Technology, made a little more interesting by a seller who appears to be trading in manufacturing rejects or training boards.
+> Latest addition :sparkles: [LM386 Oscillator](./Electronics101/LM386/Oscillator) - Letting the LM386 amplifier break free as the oscillator it always wanted to be.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

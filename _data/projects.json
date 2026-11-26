@@ -1,4 +1,14 @@
 {
+    "/electronics101/lm386/oscillator/": {
+        "id": 873,
+        "title": "LM386 Oscillator",
+        "summary": "Letting the LM386 amplifier break free as the oscillator it always wanted to be.",
+        "tags": [
+            "OpAmp",
+            "LM386",
+            "Oscillators"
+        ]
+    },
     "/audio/audioamps/lm386module/": {
         "id": 872,
         "title": "LM386 Module",
